@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EBbill Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+
+        <h1>EBbill Calculator</h1>
+        <label for=""><strong>Bill 1 : </strong></label>
+        <input type="number" name="" id="bill1" placeholder="Enter the amount of Jan-Feb" required>
+        <br>
+        <label for=""><strong>Bill 2 : </strong></label>
+        <input type="number" name="" id="bill2" placeholder="Enter the amount of Mar-Apr" required>
+        <br>
+        <label for=""><strong>Bill 3 : </strong></label>
+        <input type="number" name="" id="bill3" placeholder="Enter the amount of May-Jun" required>
+        <br>
+        <label for=""><strong>Bill 4 : </strong></label>
+        <input type="number" name="" id="bill4" placeholder="Enter the amount of Jul-Aug" required>
+        <br>
+        <label for=""><strong>Bill 5 : </strong></label>
+        <input type="number" name="" id="bill5" placeholder="Enter the amount of Sep-Oct" required>
+        <br>
+        <label for=""><strong>Bill 6 : </strong></label>
+        <input type="number" name="" id="bill6" placeholder="Enter the amount of Nov-Dec" required>
+        <br>
+        <button type="submit"  onClick="calculate()" id="calculate">Calculate</button>
+        <button type="reset" id="reset" onclick="reset()">Reset</button>
+        <div id="display">
+        <strong><p id="total"></p></strong>
+        <strong><p id="min"></p></strong>
+        <strong><p id="max"></p></strong>
+        <strong><p id="Average"></p></strong>
+    </div>
+    <br>
+    <div id="unitsdiv">
+        <a href="./unitsCalc.html" class="unitspage">Calculate by Units Consumed</a>
+    </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EB Bill Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="unitscontainer">
+        <h1>EBbill Calculator</h1>
+        <label for=""><strong>Units Consumed for 2 Months : </strong></label>
+        <input type="number" name="" id="unitinput" placeholder="Enter Number of Units">
+        <br>
+        <div id="unitsbutt">
+        <button type="submit"  onClick="unitCalc()" id="unitcalculate">Calculate</button>
+        <button type="reset" id="unitreset" onclick="unitReset()">Reset</button>
+    </div>
+        <br>
+        <div id="unitamtbox">
+        <p id="unitsamount">Your Bill Amount = Rs.0</p>
+    </div>
+    <div id="tablediv">
+        <table id="table">
+            <tr id="tr">
+                <th id="th1"></th>
+                <th id="th2"></th>
+                <th id="th3"></th>
+            </tr>
+            <tr id="tr">
+                <td id="td11"></td>
+                <td id="td12"></td>
+                <td id="td13"></td>
+            </tr>
+            <tr id="tr">
+                <td id="td21"></td>
+                <td id="td22"></td>
+                <td id="td23"></td>
+            </tr>
+            <tr id="tr">
+                <td id="td31"></td>
+                <td id="td32"></td>
+                <td id="td33"></td>
+            </tr>
+            <tr id="tr">
+                <td id="td41"></td>
+                <td id="td42"></td>
+                <td id="td43"></td>
+            </tr>
+            <tr id="tr">
+                <td id="td51"></td>
+                <td id="td52"></td>
+                <td id="td53"></td>
+            </tr>
+            <tr id="tr">
+                <td id="td61"></td>
+                <td id="td62"></td>
+                <td id="td63"></td>
+            </tr>
+            <tr id="tr">
+                <td id="td71"></td>
+                <td id="td72"></td>
+                <td id="td73"></td>
+            </tr>
+        </table>
+    </div>
+        <div id="calcdiv">
+        <a href="./index.html" class="calcpage">Calculate by Amount</a>
+    </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

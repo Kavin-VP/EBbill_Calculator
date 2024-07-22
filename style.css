@@ -1,0 +1,124 @@
+.container{
+    text-align: center;
+    border: 3px solid black;
+    margin-left:30%;
+    margin-right: 30%;
+    margin-top:5%;
+    padding-bottom: 20px;
+    background-color: cadetblue;
+}
+
+input{
+    margin: 10px;
+    width: 220px;
+    padding: 10px;
+    border-radius: 20px;
+}
+button{
+    margin:5px;
+    padding: 10px;
+    color:black;
+    background-color: rgb(73, 162, 73);
+    font-size: 15px;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: green;
+    color:white;
+}
+#reset{
+    background-color: rgb(249, 93, 93);
+    color:black;
+}
+#reset:hover{
+    background-color: red;
+    color:white;
+}
+#display{
+   
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+body{
+    background-color: rgb(161, 195, 191);
+}
+.unitspage{
+    text-decoration: none;
+    font-weight: bold;
+}
+#unitsdiv{
+    border: 3px solid black;
+    padding: 10px;
+}
+#unitscontainer{
+    text-align: center;
+    border: 3px solid black;
+    margin-left:30%;
+    margin-right: 30%;
+    margin-top:5%;
+    padding-bottom: 20px;
+    background-color: cadetblue;
+}
+#unitinput{
+    padding: 10px;
+    border-radius: 20px;
+}
+#calcdiv,#unitsdiv{
+    border: 3px solid black;
+    padding: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+    border-radius: 20px;
+    
+}
+.calcpage,.unitspage{
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+#unitsbutt{
+    margin-top: 10px;
+}
+#unitcalculate{
+    margin:5px;
+    padding: 10px;
+    color:black;
+    background-color: rgb(73, 162, 73);
+   
+    border-radius: 20px;
+}
+#unitreset{
+    background-color: rgb(249, 93, 93);
+    color:black;
+}
+#unitcalculate:hover{
+    background-color: green;
+    color:white;
+}
+#unitreset:hover{
+    background-color: red;
+    color:white;
+}
+
+#tablediv{
+    text-align: center;
+    margin-left: 30%;
+    margin-bottom: 20px;
+}
+td,th{
+    padding: 10px;
+}
+#unitamtbox{
+    background-color: black;
+    color:white;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 1px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
