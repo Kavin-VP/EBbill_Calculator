@@ -1,13 +1,15 @@
 .container{
+    width:768px;
     text-align: center;
-    border: 3px solid black;
-    margin-left:30%;
-    margin-right: 30%;
-    margin-top:5%;
-    padding-bottom: 20px;
-    background-color: cadetblue;
+    margin: auto;
 }
-
+.calc1{
+    width:768px;
+    margin: auto;
+    background-color: cadetblue;
+    border: 3px solid black;
+    padding-bottom: 20px;
+}
 input{
     margin: 10px;
     width: 220px;
@@ -54,13 +56,13 @@ body{
     padding: 10px;
 }
 #unitscontainer{
-    text-align: center;
+    
     border: 3px solid black;
-    margin-left:30%;
-    margin-right: 30%;
-    margin-top:5%;
     padding-bottom: 20px;
     background-color: cadetblue;
+    width:768px;
+    text-align: center;
+    margin: auto;
 }
 #unitinput{
     padding: 10px;
@@ -105,9 +107,8 @@ body{
 }
 
 #tablediv{
-    text-align: center;
-    margin-left: 30%;
-    margin-bottom: 20px;
+    
+    margin: auto;
 }
 td,th{
     padding: 10px;
